@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # Agentic Red-Team & MCP Telemetry Lab
 > **Auditing Autonomous Agent Tool-Execution Pipelines via Burp Suite Community Edition & Model Context Protocol (MCP)**
 
