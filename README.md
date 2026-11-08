@@ -162,16 +162,16 @@ Securing agentic systems requires adhering to a core architectural tenet: **"The
 ## 🚀 Reproduction & Setup Guide
 
 ### 1. Prerequisites
-* Kali Linux or Debian-based Linux environment[cite: 41, 42]
-* Python 3.10+ and OpenJDK 17+ / 21+[cite: 41, 42]
-* Burp Suite Community Edition v2026.x[cite: 41, 42]
-* Claude Desktop configured with Claude Sonnet 5.5[cite: 41, 42]
+* Kali Linux or Debian-based Linux environment
+* Python 3.10+ and OpenJDK 17+ / 21+
+* Burp Suite Community Edition v2026.x
+* Claude Desktop configured with Claude Sonnet 5.5
 
 ### 2. Configure Burp Suite MCP
-1. Compile `burp-mcp-all.jar` from source using OpenJDK[cite: 42].
-2. In Burp Suite: Navigate to **Extensions** → **Installed** → **Add** (Type: `Java`, select `burp-mcp-all.jar`)[cite: 42].
-3. Under the **MCP** tab, add `127.0.0.1:5000` to **Auto-Approved HTTP Targets** and enable `Always allow HTTP history access`[cite: 42].
-4. Configure Claude Desktop via `~/.config/Claude/claude_desktop_config.json`[cite: 42].
+1. Compile `burp-mcp-all.jar` from source using OpenJDK.
+2. In Burp Suite: Navigate to **Extensions** → **Installed** → **Add** (Type: `Java`, select `burp-mcp-all.jar`).
+3. Under the **MCP** tab, add `127.0.0.1:5000` to **Auto-Approved HTTP Targets** and enable `Always allow HTTP history access`.
+4. Configure Claude Desktop via `~/.config/Claude/claude_desktop_config.json`.
 
 ### 3. Launch Target & Execute Exploits
 ```bash
@@ -181,11 +181,3 @@ python3 lab/agent_server.py
 # Run Exploits
 ./exploits/01_prompt_injection_key_leak.sh
 ./exploits/02_arbitrary_file_read.sh
-```
-
----
-
-## 👤 Author
-* **Mohammad Sopfian (CyberZal)**[cite: 42]
-* GitHub Profile: [@Cyberzal1](https://github.com/Cyberzal1)[cite: 42]
-* Project Repository: [`agentic-redteam-mcp-lab`](https://github.com/Cyberzal1/agentic-redteam-mcp-lab)[cite: 42]
