@@ -182,8 +182,8 @@ python3 lab/agent_server.py
 # Run Exploits
 ./exploits/01_prompt_injection_key_leak.sh
 ./exploits/02_arbitrary_file_read.sh
-
 ```
+---
 
 ### 📥 Complete Implementation Report & Free Burp AI Architecture
 
