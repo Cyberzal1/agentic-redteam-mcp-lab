@@ -189,7 +189,7 @@ python3 lab/agent_server.py
 
 For a comprehensive, end-to-end technical guide on deploying this architecture from scratch—including step-by-step compilation of PortSwigger's Montoya MCP extension, Claude Desktop configuration, and operational security controls:
 
-* 📄 **Download the Implementation Report (PDF):** [Advanced_Capability_Implementation_PortSwigger_MCP_Claude_Integration.pdf](https://raw.githubusercontent.com/Cyberzal1/agentic-redteam-mcp-lab/main/Advanced_Capability_Implementation_PortSwigger_MCP_Claude_Integration.pdf)
+* 📄 **Download the Implementation Report (PDF):** [Download Implementation Guide (Raw)](https://raw.githubusercontent.com/Cyberzal1/agentic-redteam-mcp-lab/main/AdvancedCapabilityImplementation_PortSwigger_MCP_Claude_Integration.pdf)
 * 🛠️ **Build Configurations & MCP Templates:** Located in the [`mcp-configs/`](./mcp-configs/) directory.
 
 #### Quickstart: Getting Free AI in Burp Suite Community Edition
@@ -198,7 +198,7 @@ For a comprehensive, end-to-end technical guide on deploying this architecture f
 +─────────────────────────────────────────────────────────────────────────────+
 |               FREE BURP COMMUNITY AI TELEMETRY ARCHITECTURE                 |
 |                                                                             |
-|  [ Burp Suite Community v2026.x ] ──► (127.0.0.1:8080 Proxy Listener)      |
+|  [ Burp Suite Community v2026.x ] ──► (127.0.0.1:8080 Proxy Listener)       |
 |             │                                                               |
 |             ▼ (Montoya Java API)                                            |
 |  [ PortSwigger MCP Server Extension ] ──► (127.0.0.1:9876 /sse)             |
