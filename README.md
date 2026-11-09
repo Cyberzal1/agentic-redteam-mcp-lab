@@ -183,6 +183,8 @@ python3 lab/agent_server.py
 ./exploits/01_prompt_injection_key_leak.sh
 ./exploits/02_arbitrary_file_read.sh
 
+```
+
 ### 📥 Complete Implementation Report & Free Burp AI Architecture
 
 For a comprehensive, end-to-end technical guide on deploying this architecture from scratch—including step-by-step compilation of PortSwigger's Montoya MCP extension, Claude Desktop configuration, and operational security controls:
