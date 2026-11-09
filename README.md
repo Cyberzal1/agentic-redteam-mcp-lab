@@ -11,7 +11,7 @@
 ---
 
 ## 📌 Executive Summary
-* 📄 **Full Technical Assessment Report:** [Download / View PDF (Raw)](https://github.com/Cyberzal1/agentic-redteam-mcp-lab/raw/main/AIRedTeamingAgentSecurityAssessmentReport_GH.pdf)
+* 📄 **Full Technical Assessment Report:** [Download / View PDF (Raw)](https://raw.githubusercontent.com/Cyberzal1/agentic-redteam-mcp-lab/main/AIRedTeamingAgentSecurityAssessmentReport.pdf)
 
 Modern enterprise applications increasingly deploy Large Language Models (LLMs) inside autonomous execution loops (e.g., LangChain, AutoGen, CrewAI, and custom Agentic APIs). These agents are granted external tool-calling capabilities such as internal database queries, customer lookups, and operating system file reads.
 
