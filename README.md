@@ -182,3 +182,25 @@ python3 lab/agent_server.py
 # Run Exploits
 ./exploits/01_prompt_injection_key_leak.sh
 ./exploits/02_arbitrary_file_read.sh
+
+### 📥 Complete Implementation Report & Free Burp AI Architecture
+
+For a comprehensive, end-to-end technical guide on deploying this architecture from scratch—including step-by-step compilation of PortSwigger's Montoya MCP extension, Claude Desktop configuration, and operational security controls:
+
+* 📄 **Download the Implementation Report (PDF):** [Advanced_Capability_Implementation_PortSwigger_MCP_Claude_Integration.pdf](https://raw.githubusercontent.com/Cyberzal1/agentic-redteam-mcp-lab/main/Advanced_Capability_Implementation_PortSwigger_MCP_Claude_Integration.pdf)
+* 🛠️ **Build Configurations & MCP Templates:** Located in the [`mcp-configs/`](./mcp-configs/) directory.
+
+#### Quickstart: Getting Free AI in Burp Suite Community Edition
+
+```text
++─────────────────────────────────────────────────────────────────────────────+
+|               FREE BURP COMMUNITY AI TELEMETRY ARCHITECTURE                 |
+|                                                                             |
+|  [ Burp Suite Community v2026.x ] ──► (127.0.0.1:8080 Proxy Listener)      |
+|             │                                                               |
+|             ▼ (Montoya Java API)                                            |
+|  [ PortSwigger MCP Server Extension ] ──► (127.0.0.1:9876 /sse)             |
+|             │                                                               |
+|             ▼ (mcp-proxy-all.jar Stdio Bridge)                              |
+|  [ Claude Desktop (Claude Sonnet 5.5) ] ──► Autonomous Proxy History Triage |
++─────────────────────────────────────────────────────────────────────────────+
